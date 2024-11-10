@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct nagabaraApp: App {
+struct NagabaraApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {

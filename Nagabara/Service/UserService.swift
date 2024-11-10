@@ -13,6 +13,7 @@ protocol UserServiceType {
     func getUser(userId: String) -> AnyPublisher<User, ServiceError>
     func loadUsers(id: String) -> AnyPublisher<[User], ServiceError>
     func updateUserNickname(userId: String, nickname: String) -> AnyPublisher<Void, ServiceError>
+    func deleteUser(userId: String) -> AnyPublisher<Void, ServiceError>
 }
 
 class UserService: UserServiceType {
@@ -57,5 +58,21 @@ class UserService: UserServiceType {
             return dbRepository.updateUser(updatedUserObject)
                 .mapError { .error($0) }
                 .eraseToAnyPublisher()
+    }
+    
+    func deleteUser(userId: String) -> AnyPublisher<Void, ServiceError> {
+        Future { promise in
+            // 데이터베이스에서 사용자 삭제 로직
+            self.dbRepository.deleteUser(userId: userId) // dbRepository를 사용하여 삭제
+                .sink { completion in
+                    if case .failure(let error) = completion {
+                        promise(.failure(.error(error)))
+                    }
+                } receiveValue: {
+                    promise(.success(()))
+                }
+                .store(in: &self.subscriptions) // subscriptions에 저장
+        }
+        .eraseToAnyPublisher()
     }
 }

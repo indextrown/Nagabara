@@ -18,7 +18,7 @@ struct AuthenticationView: View {
                 case .authenticated:
                     MainTabView()
                         .environmentObject(authVM)
-                case .nicknamerequired:
+                case .nicknameRequired:
                     NicknameRequiredView()
                         .environmentObject(authVM)
             }

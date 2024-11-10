@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF66923F2CDF85B7005D2ADA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF66923E2CDF85B7005D2ADA /* GoogleService-Info.plist */; };
+		DF4946F92CE107E800A3F596 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4946F82CE107E800A3F596 /* Color+Extension.swift */; };
 		DF6692422CDF85E7005D2ADA /* Appdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6692412CDF85E7005D2ADA /* Appdelegate.swift */; };
 		DF6692452CDF8625005D2ADA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DF6692442CDF8625005D2ADA /* FirebaseAuth */; };
 		DF6692472CDF8625005D2ADA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DF6692462CDF8625005D2ADA /* FirebaseDatabase */; };
@@ -19,6 +19,8 @@
 		DF7A10762CDFE6E000359CC8 /* RandomNonceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A10752CDFE6E000359CC8 /* RandomNonceString.swift */; };
 		DF7A107A2CDFEA3000359CC8 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A10792CDFEA3000359CC8 /* UserObject.swift */; };
 		DF8B2B322CE0F6340016C741 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DF8B2B312CE0F6340016C741 /* .gitignore */; };
+		DF8B2B342CE0FA510016C741 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8B2B332CE0FA510016C741 /* GoogleService-Info.plist */; };
+		DF8B2B372CE103870016C741 /* Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B2B362CE103870016C741 /* Rect.swift */; };
 		DF91C8392CDF3F4E00E4FBCC /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91C8382CDF3F4E00E4FBCC /* DIContainer.swift */; };
 		DF91C83F2CDF450100E4FBCC /* NicknameRequiredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91C83E2CDF450100E4FBCC /* NicknameRequiredView.swift */; };
 		DF91C8412CDF451600E4FBCC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91C8402CDF451500E4FBCC /* MainTabView.swift */; };
@@ -32,8 +34,7 @@
 		DFC3F12E2CDF2C89004E9A17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3F12D2CDF2C89004E9A17 /* User.swift */; };
 		DFC3F1312CDF2D98004E9A17 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3F1302CDF2D98004E9A17 /* Services.swift */; };
 		DFC3F1332CDF2DE3004E9A17 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3F1322CDF2DE3004E9A17 /* AuthenticationService.swift */; };
-		DFD034C82CDE966C00E180A7 /* nagabaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD034C72CDE966C00E180A7 /* nagabaraApp.swift */; };
-		DFD034CA2CDE966C00E180A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD034C92CDE966C00E180A7 /* ContentView.swift */; };
+		DFD034C82CDE966C00E180A7 /* NagabaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD034C72CDE966C00E180A7 /* NagabaraApp.swift */; };
 		DFD034CC2CDE966D00E180A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD034CB2CDE966D00E180A7 /* Assets.xcassets */; };
 		DFD034CF2CDE966D00E180A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD034CE2CDE966D00E180A7 /* Preview Assets.xcassets */; };
 		DFD034D82CDE968800E180A7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD034D72CDE968800E180A7 /* LoginView.swift */; };
@@ -43,7 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF66923E2CDF85B7005D2ADA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF4946F82CE107E800A3F596 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		DF6692412CDF85E7005D2ADA /* Appdelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appdelegate.swift; sourceTree = "<group>"; };
 		DF7A106B2CDFE19200359CC8 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		DF7A10732CDFE6D500359CC8 /* SHA256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
@@ -51,6 +52,8 @@
 		DF7A10792CDFEA3000359CC8 /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 		DF7A107B2CDFED5800359CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DF8B2B312CE0F6340016C741 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DF8B2B332CE0FA510016C741 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF8B2B362CE103870016C741 /* Rect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rect.swift; sourceTree = "<group>"; };
 		DF91C8382CDF3F4E00E4FBCC /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		DF91C83E2CDF450100E4FBCC /* NicknameRequiredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameRequiredView.swift; sourceTree = "<group>"; };
 		DF91C8402CDF451500E4FBCC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -64,9 +67,8 @@
 		DFC3F12D2CDF2C89004E9A17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DFC3F1302CDF2D98004E9A17 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		DFC3F1322CDF2DE3004E9A17 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
-		DFD034C42CDE966C00E180A7 /* nagabara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nagabara.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFD034C72CDE966C00E180A7 /* nagabaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nagabaraApp.swift; sourceTree = "<group>"; };
-		DFD034C92CDE966C00E180A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFD034C42CDE966C00E180A7 /* Nagabara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nagabara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD034C72CDE966C00E180A7 /* NagabaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagabaraApp.swift; sourceTree = "<group>"; };
 		DFD034CB2CDE966D00E180A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD034CE2CDE966D00E180A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFD034D72CDE968800E180A7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF4946F72CE107DB00A3F596 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF4946F82CE107E800A3F596 /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DF6692402CDF85D7005D2ADA /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,14 @@
 				DFBD15462CE06E9C0057A20B /* UserDBRepository.swift */,
 			);
 			path = DTO;
+			sourceTree = "<group>";
+		};
+		DF8B2B352CE1037D0016C741 /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B2B362CE103870016C741 /* Rect.swift */,
+			);
+			path = Rectangle;
 			sourceTree = "<group>";
 		};
 		DF91C8372CDF3F4100E4FBCC /* General */ = {
@@ -199,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				DF8B2B312CE0F6340016C741 /* .gitignore */,
-				DFD034C62CDE966C00E180A7 /* nagabara */,
+				DFD034C62CDE966C00E180A7 /* Nagabara */,
 				DFD034C52CDE966C00E180A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -207,29 +225,29 @@
 		DFD034C52CDE966C00E180A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFD034C42CDE966C00E180A7 /* nagabara.app */,
+				DFD034C42CDE966C00E180A7 /* Nagabara.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DFD034C62CDE966C00E180A7 /* nagabara */ = {
+		DFD034C62CDE966C00E180A7 /* Nagabara */ = {
 			isa = PBXGroup;
 			children = (
+				DFD034C72CDE966C00E180A7 /* NagabaraApp.swift */,
 				DF7A107B2CDFED5800359CC8 /* Info.plist */,
+				DF8B2B332CE0FA510016C741 /* GoogleService-Info.plist */,
+				DFD034CB2CDE966D00E180A7 /* Assets.xcassets */,
 				DFD034DB2CDE999300E180A7 /* nagabara.entitlements */,
+				DF4946F72CE107DB00A3F596 /* Extension */,
 				DF7A10772CDFEA1B00359CC8 /* Repository */,
 				DF6692402CDF85D7005D2ADA /* Delegate */,
-				DFD034C72CDE966C00E180A7 /* nagabaraApp.swift */,
 				DF7A10722CDFE6C200359CC8 /* Utill */,
-				DF66923E2CDF85B7005D2ADA /* GoogleService-Info.plist */,
 				DF91C8372CDF3F4100E4FBCC /* General */,
 				DFC3F12F2CDF2D89004E9A17 /* Service */,
 				DFD034D52CDE967600E180A7 /* View */,
-				DFD034C92CDE966C00E180A7 /* ContentView.swift */,
-				DFD034CB2CDE966D00E180A7 /* Assets.xcassets */,
 				DFD034CD2CDE966D00E180A7 /* Preview Content */,
 			);
-			path = nagabara;
+			path = Nagabara;
 			sourceTree = "<group>";
 		};
 		DFD034CD2CDE966D00E180A7 /* Preview Content */ = {
@@ -243,6 +261,7 @@
 		DFD034D52CDE967600E180A7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF8B2B352CE1037D0016C741 /* Rectangle */,
 				DF91C8462CDF49BB00E4FBCC /* Profile */,
 				DF91C8452CDF49AF00E4FBCC /* Ranking */,
 				DF91C8442CDF49AA00E4FBCC /* Home */,
@@ -276,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFD034C32CDE966C00E180A7 /* nagabara */ = {
+		DFD034C32CDE966C00E180A7 /* Nagabara */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFD034D22CDE966D00E180A7 /* Build configuration list for PBXNativeTarget "nagabara" */;
+			buildConfigurationList = DFD034D22CDE966D00E180A7 /* Build configuration list for PBXNativeTarget "Nagabara" */;
 			buildPhases = (
 				DFD034C02CDE966C00E180A7 /* Sources */,
 				DFD034C12CDE966C00E180A7 /* Frameworks */,
@@ -288,7 +307,7 @@
 			);
 			dependencies = (
 			);
-			name = nagabara;
+			name = Nagabara;
 			packageProductDependencies = (
 				DF6692442CDF8625005D2ADA /* FirebaseAuth */,
 				DF6692462CDF8625005D2ADA /* FirebaseDatabase */,
@@ -297,7 +316,7 @@
 				DF7A10702CDFE4B300359CC8 /* GoogleSignInSwift */,
 			);
 			productName = nagabara;
-			productReference = DFD034C42CDE966C00E180A7 /* nagabara.app */;
+			productReference = DFD034C42CDE966C00E180A7 /* Nagabara.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -315,7 +334,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DFD034BF2CDE966C00E180A7 /* Build configuration list for PBXProject "nagabara" */;
+			buildConfigurationList = DFD034BF2CDE966C00E180A7 /* Build configuration list for PBXProject "Nagabara" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -332,7 +351,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFD034C32CDE966C00E180A7 /* nagabara */,
+				DFD034C32CDE966C00E180A7 /* Nagabara */,
 			);
 		};
 /* End PBXProject section */
@@ -343,8 +362,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8B2B322CE0F6340016C741 /* .gitignore in Resources */,
+				DF8B2B342CE0FA510016C741 /* GoogleService-Info.plist in Resources */,
 				DFD034CF2CDE966D00E180A7 /* Preview Assets.xcassets in Resources */,
-				DF66923F2CDF85B7005D2ADA /* GoogleService-Info.plist in Resources */,
 				DFD034CC2CDE966D00E180A7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,25 +376,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFBD15472CE06E9C0057A20B /* UserDBRepository.swift in Sources */,
+				DF4946F92CE107E800A3F596 /* Color+Extension.swift in Sources */,
 				DFD034E02CDE9BEE00E180A7 /* AuthenticationViewModel.swift in Sources */,
 				DFD034D82CDE968800E180A7 /* LoginView.swift in Sources */,
 				DF91C8392CDF3F4E00E4FBCC /* DIContainer.swift in Sources */,
 				DF91C83F2CDF450100E4FBCC /* NicknameRequiredView.swift in Sources */,
 				DF91C84A2CDF49D600E4FBCC /* RankingView.swift in Sources */,
-				DFD034CA2CDE966C00E180A7 /* ContentView.swift in Sources */,
 				DFBD15452CE06C350057A20B /* UserService.swift in Sources */,
 				DF7A106C2CDFE19200359CC8 /* Error.swift in Sources */,
 				DFC3F1332CDF2DE3004E9A17 /* AuthenticationService.swift in Sources */,
 				DFD034DA2CDE96D800E180A7 /* SocialLoginButton.swift in Sources */,
 				DFBD15492CE070580057A20B /* Constant.swift in Sources */,
 				DF91C84C2CDF49E600E4FBCC /* ProfileView.swift in Sources */,
-				DFD034C82CDE966C00E180A7 /* nagabaraApp.swift in Sources */,
+				DFD034C82CDE966C00E180A7 /* NagabaraApp.swift in Sources */,
 				DF7A10742CDFE6D500359CC8 /* SHA256.swift in Sources */,
 				DFC3F1312CDF2D98004E9A17 /* Services.swift in Sources */,
 				DF6692422CDF85E7005D2ADA /* Appdelegate.swift in Sources */,
 				DF91C8482CDF49C900E4FBCC /* Homeview.swift in Sources */,
 				DF91C8432CDF480D00E4FBCC /* MainTabType.swift in Sources */,
 				DFD034DE2CDE9B5700E180A7 /* AuthenticationView.swift in Sources */,
+				DF8B2B372CE103870016C741 /* Rect.swift in Sources */,
 				DF7A10762CDFE6E000359CC8 /* RandomNonceString.swift in Sources */,
 				DFC3F12E2CDF2C89004E9A17 /* User.swift in Sources */,
 				DF91C8412CDF451600E4FBCC /* MainTabView.swift in Sources */,
@@ -530,7 +550,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.indextrown.nagabara;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indextrown.Nagabara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -563,7 +583,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.indextrown.nagabara;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indextrown.Nagabara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -574,7 +594,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFD034BF2CDE966C00E180A7 /* Build configuration list for PBXProject "nagabara" */ = {
+		DFD034BF2CDE966C00E180A7 /* Build configuration list for PBXProject "Nagabara" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFD034D02CDE966D00E180A7 /* Debug */,
@@ -583,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFD034D22CDE966D00E180A7 /* Build configuration list for PBXNativeTarget "nagabara" */ = {
+		DFD034D22CDE966D00E180A7 /* Build configuration list for PBXNativeTarget "Nagabara" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFD034D32CDE966D00E180A7 /* Debug */,
