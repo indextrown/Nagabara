@@ -23,6 +23,9 @@ struct AuthenticationView: View {
                         .environmentObject(authVM)
             }
         }
+        .onAppear {
+            authVM.send(action: .checkAuthenticationState)
+        }
     }
 }
 

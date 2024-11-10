@@ -13,7 +13,7 @@ struct ProfileView: View {
     var body: some View {
         VStack {
             Button {
-                authVM.authenticationState = .unauthenticated
+                authVM.send(action: .logout)
             } label: {
                 Text("로그아웃")
                     .foregroundColor(.black)

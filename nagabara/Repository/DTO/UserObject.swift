@@ -1,13 +1,13 @@
 //
-//  User.swift
+//  UserObject.swift
 //  nagabara
 //
-//  Created by 김동현 on 11/9/24.
+//  Created by 김동현 on 11/10/24.
 //
 
 import Foundation
 
-struct User {
+struct UserObject: Codable {    // UserDBRepository에서 JSONEncoder().encode($0)를 위함
     var id: String              // UID
     var name: String            // 소셜 이름
     var phoneNumber: String?    // 전화번호
@@ -16,8 +16,8 @@ struct User {
     var birthday: Date?         // 생일
 }
 
-extension User {
-    func toObject() -> UserObject {
+extension UserObject {
+    func toModel() -> User {
         .init(id: id,
               name: name,
               phoneNumber: phoneNumber,
@@ -27,5 +27,3 @@ extension User {
         )
     }
 }
-
-

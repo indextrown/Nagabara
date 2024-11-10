@@ -17,16 +17,17 @@ struct LoginView: View {
 
             // apple login
             SignInWithAppleButton { request in
-                
+                authVM.send(action: .appleLogin(request))
             } onCompletion: { request in
-                print("1")
+                authVM.send(action: .appleLoginCompletion(request))
             }
             .frame(height: 50)
             .padding(.horizontal, 15)
             
             // google login
             Button {
-                authVM.authenticationState = .authenticated
+                //authVM.authenticationState = .authenticated
+                authVM.send(action: .googleLogin)
             } label: {
                 HStack {
                     Image("Google")
